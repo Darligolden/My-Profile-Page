@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile Page</title>
+    <style>
+        body{
+    background-color: antiquewhite;
+    columns: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: coral;
+    color: white;    
+}
+#main-header h1{
+    height: 10px;
+    text-align: center;
+    font-size: 5em;
+}
+
+#navbar{
+    background-color:black;
+    color:white
+}
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+
+}
+#navbar a{
+    color:palegoldenrod;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 25px;
+    text-align: right;
+    float: center;
+}
+img{
+    border-radius: 10px;
+    width: 30%;
+    height: 30%;
+    
+}
+img:hover {
+    transform: scaleX(-1);
+  }
+.form-group label{
+    color: darkmagenta;
+}
+
+h4{
+    color:chartreuse;
+    background-color:darkblue;
+}
+p{
+    color: darkorchid;
+}
+
+
+#main{
+    float: left;
+    width: 70%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+
+#sidebar{
+    float: left;
+    width: 30%;
+    padding: 60px;
+    box-sizing: border-box;
+    background: #333;
+    color: #fff;
+    margin-top: 50px;
+}
+
+ #main-footer{
+     background-color: cadetblue;
+     color: #fff;
+     text-align: center;
+     padding: 20px;
+     margin-top: 10px;
+     float: inline-end;
+     
+ }
+ @media(max-width: 800px) {
+    #main{
+      width: 100%;
+      float:none;
+    }
+    </style>
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+        <h1>My Profile Page</h1> 
+        </div> 
+    </header>
+    <nav id="navbar"> 
+        <div class="container">
+        <ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Specialties</a></li>
+<li><a href="#">Addictions</a></li>
+<li><a href="#">Challenge</a></li>
+    
+        </ul> 
+        </div> 
+    </nav>
+
+    <section id="showcase">
+<div class="container">
+
+
+
+
+</div>
+    </section>
+    <div class="container">
+    <section id="main">
+<img src="https://res.cloudinary.com/darligolden/image/upload/c_scale,h_953/v1587144932/IMG_20190221_082306_2_tcdxvn.jpg">
+<h1>Personal Details</h1>
+<h4>Name: Okoro Darlington C.</h4>
+<h4>State Of Origin: Abia</h4>
+<h4>Date Of Birth: November 6th</h4>
+<h4>Address: No 17 Ramlat Timson, Aguda Surulere</h4>
+<h4>Occupation: Buisness Man</h4>
+<h4>Home Town: Arochukwu</h4>
+<h4>Slack ID: @Golden</h4>
+    </section> 
+    <aside id="sidebar">
+    <i> Summary of my life
+            (with Hobbies and Intrest)</i>
+        Am a very annoying person when you don't really understand me,but when you do, am just as simple as the air you breath.
+        am so much intrested in the purpose of life and love sound minds,
+         not confused and biased ones, you should bassically know
+        where you stand by now.
+        I love playing footbal and also enjoy watching it on Tv, Video games, travelling and swimming(all are my Hobbies).
+        My only intrest is knowing why am brought to live in this world.
+        
+
+    </aside>
+    </div>
+    <footer id="main-footer">
+        <p><b>Contact</b></p>
+        <form>
+            <div class="form-group">   
+           <label>Name</label>
+           <input type="text" name="text" placeholder="Name" required>
+           <label>E-mail</label>
+           <input type="text" name="e-mail" placeholder="Insert your E-mail" required>
+           <label>Phone Number</label>
+           <input type="Number" name="Phone" placeholder="Phone Number" required><br>
+           <p>Copyright &copy; 2020 My Profile Page </p>
+
+    </footer>
+</body>  
+</html>
